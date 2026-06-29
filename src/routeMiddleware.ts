@@ -6,7 +6,16 @@ export const onRequest = defineRouteMiddleware((context) => {
   const sidebar = context.locals.starlightRoute.sidebar;
 
   // List your course folder names here
-  const courseFolders = ["1-get-started", "2-kinematics"];
+  const courseFolders = [
+    "01-intro-robotic",
+    "02-spatial-math-coordinate-system",
+    "03-electronic-signal",
+    "04-control-theory",
+    "05-kinematic-odometry",
+    "06-sensor-noise-filtering",
+    "07-behavior-logic-state-machine",
+    "08-dynamic",
+  ];
 
   // Find if the user is currently browsing one of the courses
   const currentCourse = courseFolders.find((folder) =>

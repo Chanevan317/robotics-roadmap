@@ -1,96 +1,79 @@
 ---
-title: Roadmap to learn Robotics
+title: Robotics, From Zero to Hero
 description: Roadmap to learn Robotics
 template: splash
+prev: false
+next: false
 hero:
-  tagline: Get your robotics journey started
+  tagline: Get your robotics journey started!
   image:
     file: ../../assets/hero-img.webp
   actions:
-    - text: Explore Pathways
+    - text: Start Learning
       link: '#pathways'
       icon: down-arrow
-      variant: secondary
+      variant: primary
 ---
 
-import { CardGrid, LinkCard } from '@astrojs/starlight/components';
+import { CardGrid, LinkCard, Card, Aside } from '@astrojs/starlight/components';
 
+<Card title="Little Introduction">
+    Welcome to the roadmap for modern robotics. As the world shifts toward smart, AI-driven machines, this course takes you from an absolute beginner to a capable robotics developer. You will progress through these simple steps: mastering the fundamental concepts, learning softwares and tools, building virtual worlds in Isaac Sim, training intelligent behaviors with Reinforcement Learning, connecting code to real hardware via ROS 2, and exploring cutting-edge AI that lets robots see and understand human commands.
+</Card>
+
+<Aside>
+  <strong>Prerequisites:</strong> A basic understanding of programming (Python and introductory C++) and foundational mathematics (Linear Algebra, Calculus, and basic Probability).<br />
+  <strong>Course Format:</strong> Self-paced and written like real project documentation. We designed it this way as learning through hands-on docs is exactly how real engineers pick up new skills and learn.
+</Aside>
+
+
+
+<br />
 <span id="pathways">
 </span>
+
 
 ## Robotics Fundamentals
 
 <CardGrid>
   <LinkCard 
-    title="What is a robot?" 
+    title="01 - Introduction to Robotics" 
     description="Get started with the basics of robotics and learn about kinematics." 
-    href="/1-get-started/" 
+    href="/01-intro-robotic/" 
   />
   <LinkCard 
-    title="Kinematics" 
-    description="Learn about kinematics and how to model robot motion." 
-    href="/2-kinematics/" 
+    title="02 - Spatial Math & Coordinate Systems" 
+    description="Learn about spatial math and coordinate systems." 
+    href="/02-spatial-math-coordinate-system/" 
   />
   <LinkCard 
-    title="What is a robot?" 
+    title="03 - Electronics & Signals" 
     description="Get started with the basics of robotics and learn about kinematics." 
-    href="/1-get-started/" 
+    href="/03-electronic-signal/" 
   />
   <LinkCard 
-    title="Kinematics" 
-    description="Learn about kinematics and how to model robot motion." 
-    href="/2-kinematics/" 
-  />
-</CardGrid>
-
-
-## Robot Operating System
-
-<CardGrid>
-  <LinkCard 
-    title="What is a robot?" 
-    description="Get started with the basics of robotics and learn about kinematics."
-    href="/1-get-started/" 
+    title="04 - Classical Control Theory" 
+    description="Learn about spatial math and coordinate systems." 
+    href="/04-control-theory/" 
   />
   <LinkCard 
-    title="Kinematics" 
-    description="Learn about kinematics and how to model robot motion." 
-    href="/2-kinematics/" 
-  />
-  <LinkCard 
-    title="What is a robot?" 
+    title="05 - Kinematics & Odometry" 
     description="Get started with the basics of robotics and learn about kinematics." 
-    href="/1-get-started/" 
+    href="/05-kinematic-odometry/" 
   />
   <LinkCard 
-    title="Kinematics" 
-    description="Learn about kinematics and how to model robot motion." 
-    href="/2-kinematics/" 
-  />
-</CardGrid>
-
-
-## Reinforcement Learning
-
-<CardGrid>
-  <LinkCard 
-    title="What is a robot?" 
-    description="Get started with the basics of robotics and learn about kinematics."
-    href="/1-get-started/" 
+    title="06 - Sensor Noise & Filtering" 
+    description="Learn about spatial math and coordinate systems." 
+    href="/06-sensor-noise-filtering/" 
   />
   <LinkCard 
-    title="Kinematics" 
-    description="Learn about kinematics and how to model robot motion." 
-    href="/2-kinematics/" 
-  />
-  <LinkCard 
-    title="What is a robot?" 
+    title="07 - Behavioral Logic & State Machines" 
     description="Get started with the basics of robotics and learn about kinematics." 
-    href="/1-get-started/" 
+    href="/07-behavior-logic-state-machine/" 
   />
   <LinkCard 
-    title="Kinematics" 
-    description="Learn about kinematics and how to model robot motion." 
-    href="/2-kinematics/" 
+    title="08 - Basic Dynamics" 
+    description="Learn about spatial math and coordinate systems." 
+    href="/08-dynamic/" 
   />
 </CardGrid>
